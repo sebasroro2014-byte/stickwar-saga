@@ -9,13 +9,6 @@
   <div id="container" style="width: 100vw; height: 100vh;"></div>
   <script>
     window.RufflePlayer = window.RufflePlayer || {};
-    window.RufflePlayer.config = {
-      "autoplay": "on",
-      "letterbox": "on",
-      "scale": "showAll",
-      "forceScale": true,
-      "quality": "medium"
-    };
     window.addEventListener("load", () => {
       const ruffle = window.RufflePlayer.newest();
       const player = ruffle.createPlayer();
