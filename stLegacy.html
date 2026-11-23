@@ -6,9 +6,9 @@
 </head>
 <body>
   <div id="container" style="width: 100vw; height: 100vh;"></div>
-  <script src="ruffle.js"></script>
+  <script src="https://jsdelivr.net"></script>
   <script>
-    window.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("load", () => {
       const ruffle = window.RufflePlayer.newest();
       const player = ruffle.createPlayer();
       player.style.width = "100%";
