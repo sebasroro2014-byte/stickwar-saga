@@ -11,8 +11,10 @@
     window.RufflePlayer = window.RufflePlayer || {};
     window.RufflePlayer.config = {
       "autoplay": "on",
-      "unmuteOverlay": "hidden",
-      "letterbox": "on"
+      "letterbox": "on",
+      "scale": "showAll",
+      "forceScale": true,
+      "quality": "medium"
     };
     window.addEventListener("load", () => {
       const ruffle = window.RufflePlayer.newest();
